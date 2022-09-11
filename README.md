@@ -25,7 +25,7 @@ optional arguments:
                         separated by commas)
 ```
 A recipe file contains paths to the alignment file (in a line started with "a") and paths to fasta files with genomes' sequences (in lines starting with "g"). Lines starting with "#" are considered to be comments.
-- a recipe file example
+#### a recipe file example
 
 ```
 a /path/to/alignment_file.maf
