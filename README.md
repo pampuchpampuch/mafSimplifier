@@ -1,6 +1,6 @@
 # mafSimplifier
 
-A pipeline that simpifies a whole genome alignment and produces a file in MAF format. Beside simplification of WGA it allows for repetitive blocks resolution. Synteny blocks simplification is done with [maf2synteny](https://github.com/fenderglass/maf2synteny/blob/master/README.md) and the repetitive block resolution is heavily based on the method used in [Ragout](https://github.com/fenderglass/Ragout). 
+A pipeline that simpifies a whole genome alignment and produces a file in MAF format. Beside simplification of WGA it allows for repetitive blocks resolution (without it output can have repetitive blocks). Synteny blocks simplification is done with [maf2synteny](https://github.com/fenderglass/maf2synteny/blob/master/README.md) and the repetitive block resolution is heavily based on the method used in [Ragout](https://github.com/fenderglass/Ragout). 
 
 ## Dependencies
 - [maf2synteny](https://github.com/fenderglass/maf2synteny/blob/master/README.md)
