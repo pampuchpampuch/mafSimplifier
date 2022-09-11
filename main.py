@@ -37,9 +37,6 @@ def parse_recipe(recipe_file):
             elif line[0]=="a":
                 recipe_dict["alignment_file"]=line[2:]
 
-            elif line[0]=="b":
-                recipe_dict["blocks"]=line[2:]
-
             else:
                 raise Exception("Unknown parameter at the begining of the recipe file line")
 
