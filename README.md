@@ -28,7 +28,7 @@ A recipe file contains paths to the alignment file (in a line started with "a") 
 #### a recipe file example
 
 ```
-a /path/to/alignment_file.maf
+a /path/to/alignment/file.maf
 
 g /path/to/genome/sequence/Dog.fa
 g /path/to/genome/sequence/Mouse.fa
