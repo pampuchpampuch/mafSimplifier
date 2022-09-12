@@ -65,7 +65,7 @@ def run_m2s(maf_file,out_dir,min_blocks_list):
 
     cmdline=[M2S_EXEC,maf_file,"-o", out_dir, "-s",
             params_file,"-b", ",".join(map(str,min_blocks_list))]
-    cmdline=[M2S_EXEC,maf_file,"-o", out_dir,"-b",",".join(map(str,min_blocks_list))]
+    #cmdline=[M2S_EXEC,maf_file,"-o", out_dir,"-b",",".join(map(str,min_blocks_list))]
     subprocess.run(cmdline)
 
     os.remove(params_file)
