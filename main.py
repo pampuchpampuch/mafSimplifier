@@ -78,7 +78,7 @@ def main():
                 description="...")
     parser.add_argument("recipe", metavar="recipe_file",
                         help="path to recipe file")
-    parser.add_argument("-o", "--outdir", dest="out_dir",default="pampuch-out",
+    parser.add_argument("-o", "--outdir", dest="out_dir",default="simplification-out",
                         metavar="output_dir",
                         help="output directory")
     parser.add_argument("-r","--resolve_repeats", action="store_true", default=False,
